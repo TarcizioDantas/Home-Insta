@@ -36,6 +36,15 @@ body{
     height: 50rem;
 }
 
+.instagram_continue{
+    display: flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-around; /*vertical*/
+    flex-direction: column;
+}
+
+
+
 .profile_photo{
     display: flex;
     align-items: center;
@@ -45,4 +54,5 @@ body{
 
 .profile_photo img{
     height: 10rem;
+    border-radius: 50%;
 }
