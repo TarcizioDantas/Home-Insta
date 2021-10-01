@@ -84,14 +84,14 @@ body{
 }
 
 .instagram_logim{
-    background-color: blue;
+    background-color: #0095f6;
     color: white;
     padding: 8px;
     border-radius: 5px;
 }
 
 .instagram_logout{
-    color: blue;
+    color: #0095f6;
     margin-top: 1rem;
 }
 
@@ -101,4 +101,65 @@ body{
 
 .link_blue{
     color: #0095f6;
+}
+
+.get_the_app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app_download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app_download:nth-child(1){
+    background-image: url('./imgs/app_store.png');
+}
+
+.app_download:nth-child(2){
+    background-image: url('./imgs/google_play.png');
+}
+
+/* media queries */
+
+@media (max-width: 1024px){
+    .instagram_wraper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: white;
+    }
+
+    .instagram_wraper{
+        width: 90%;
+    }
+
+    .instagram_phone{
+        display: none;
+    }
+
+    .instagram_continue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
 }
