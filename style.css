@@ -82,3 +82,23 @@ body{
 .profile_photo img{
     height: 7rem;
 }
+
+.instagram_logim{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.instagram_logout{
+    color: blue;
+    margin-top: 1rem;
+}
+
+.not_account{
+    color: rgb(160, 160, 160);
+}
+
+.link_blue{
+    color: #0095f6;
+}
