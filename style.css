@@ -56,25 +56,29 @@ body{
     border: 1px solid lightgray;
 }
 
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
 .instagram_logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
 }
 
 .instagram_logo img{
-    height: 5rem;
+    height: 3rem;
 }
 
 .profile_photo{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profile_photo img{
     height: 7rem;
-    border-radius: 50%;
 }
