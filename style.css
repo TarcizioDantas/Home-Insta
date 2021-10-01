@@ -33,7 +33,7 @@ body{
 }
 
 .instagram_phone img{
-    height: 50rem;
+    height: 30rem;
 }
 
 .instagram_continue{
@@ -41,9 +41,20 @@ body{
     align-items: center; /*horizontal*/
     justify-content: space-around; /*vertical*/
     flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
 }
 
+.instagram_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
 
+.instagram_logo img{
+    height: 5rem;
+}
 
 .profile_photo{
     display: flex;
@@ -53,6 +64,6 @@ body{
 }
 
 .profile_photo img{
-    height: 10rem;
+    height: 7rem;
     border-radius: 50%;
 }
